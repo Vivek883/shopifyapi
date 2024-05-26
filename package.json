@@ -1,0 +1,27 @@
+{
+  "homepage": "https://github.com/Vivek883/shopifyapi_backend",
+  "name": "shopifyapi_backend",
+  "version": "1.0.0",
+  "main": "product.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vivek883/shopifyapi_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vivek883/shopifyapi_backend/issues"
+  },
+  
+  "description": "",
+  "dependencies": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "request": "^2.88.2"
+  }
+}
